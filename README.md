@@ -46,7 +46,7 @@ Place the executables into your ``$HOME/bin/`` directory or path. Place the `.XT
     scp pqcxms $HOME/bin/
     scp q-batch $HOME/bin/
     scp getres $HOME/bin/
-    scp .XTBPARAM $HOME/
+    scp -r .XTBPARAM $HOME/
 
 
 ### run nextflow

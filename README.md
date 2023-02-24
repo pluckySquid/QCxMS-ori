@@ -14,7 +14,7 @@ Statically linked binaries (Intel Compiler 21.3.0) can be found at the [latest r
 Untar the zipped archive:
 
 ```bash
-tar -xvzf QCxMS.vX.X.tar.xz
+tar -xvf QCxMS.v.5.2.1.tar.xz
 ```
 
 The following files are being extracted: `qcxms` `pqcxms` `q-batch` `getres` `.XTBPARAM` `EXAMPLE`

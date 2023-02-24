@@ -37,3 +37,7 @@ Place the executables into your ``$HOME/bin/`` directory or path. Place the `.XT
     apt-get install ca-certificates-java && \
     apt-get clean && \
     update-ca-certificates -f;
+
+
+### run nextflow
+/yunshuvol/bin/nextflow run /yunshuvol/Nextflow/nxfl_Tetra.nf -with-report Tetra_CID.htm

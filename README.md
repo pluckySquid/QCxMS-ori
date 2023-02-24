@@ -26,7 +26,7 @@ Place the executables into your ``$HOME/bin/`` directory or path. Place the `.XT
 
 
 ### install java
-# Install OpenJDK-8
+# Install OpenJDK-17
     apt-get update && \
     apt-get install -y openjdk-17-jdk && \
     apt-get install -y ant && \
@@ -37,6 +37,16 @@ Place the executables into your ``$HOME/bin/`` directory or path. Place the `.XT
     apt-get install ca-certificates-java && \
     apt-get clean && \
     update-ca-certificates -f;
+    
+    
+### Move binaries
+
+    mkdir $HOME/bin
+    scp qcxms $HOME/bin/
+    scp pqcxms $HOME/bin/
+    scp q-batch $HOME/bin/
+    scp getres $HOME/bin/
+    scp .XTBPARAM $HOME/
 
 
 ### run nextflow
